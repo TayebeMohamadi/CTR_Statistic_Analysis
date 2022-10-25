@@ -229,7 +229,7 @@ Finding the best 10 performing items was more challenging. Because there is no l
 
 4. Describe and visualize the relationship between the average displayed position and the CTR among the top 1000 most clicked items.
 
-* First I calculated the top 1000 most clicked items, then I filtered the original dataset by these item ids. Then I replace missing value -11 displayed_position with its corresponding position in impressed_item_ids. This task has been done with normalizing dataframe based on impressed_item_ids, applying a window function and some handy work on resulting dataset. After that I was able to calculate average displayed position and the CTR among the top 1000 most clicked items. The final data frame can be found in /output/output4.csv. Based on the below plot and the correlation value which is -0.514, we can conclude that an increase in CTR moderately predicts a decrease in average displayed position value.
+* First I calculated the top 1000 most clicked items, then I filtered the original dataset by these item ids. Then I replace missing value -11 displayed_position with its corresponding position in impressed_item_ids. This task has been done with normalizing dataframe based on impressed_item_ids, applying a window function and some handy work on resulting dataset. After that I was able to calculate average displayed position and the CTR among the top 1000 most clicked items. The final data frame can be found in /output/output4.csv. Based on the below plot and the correlation value which is -0.514, <b> we can conclude that an increase in CTR moderately predicts a decrease in average displayed position value </b>.
 
 
 <p align="center">
