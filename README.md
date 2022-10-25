@@ -13,7 +13,7 @@ for him/her.
 ## Descripption
 This project aims to generate insights from the sample datasets which are provided.The interest is mainly about gaining insights regarding click-out distribution and click-through rates (CTR).
 
-## Problem 1
+## Problem 1 (Clicked items investigation)
 The data_analysis_case_study_part_1.csv contains information about items (SIM Cards). Each row displays for each item, it's id, number of times it
 was displayed (impressions), number of click-outs (clicks), set of clicked displayed positions (0=first position), average impressed position, number of users and sessions with at least one impression. Only clicks and impressions from the first page results are considered.
 
@@ -27,7 +27,7 @@ displayed position. What are your thoughts about the variance between the two?
 4. In the dataset, we provided you with the average displayed position. What can be
 wrong with using averages?
 
-## Problem 2
+## Problem 2 (Session investigation)
 Each row in data_analysis_case_study_part_2.csv
 corresponds to a click-out from a user and basic information on the structure could be found at
 the followng section.
